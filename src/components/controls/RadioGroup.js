@@ -19,6 +19,7 @@ export default function RadioGroup(props) {
             <MuiRadioGroup
               row
               name={name}
+              
               value={value}
               onChange={onChange}
             >
@@ -27,7 +28,7 @@ export default function RadioGroup(props) {
                 return <FormControlLabel
                 key={'Radio'+index}
                 value={item.id}
-                control={<Radio />}
+                control={<Radio color='primary'/>}
                 label={item.title}
               />
             })}
