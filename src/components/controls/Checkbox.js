@@ -8,7 +8,11 @@ export default function Checkbox(props) {
   const { name, label, value, onChange } = props;
 
   const convertDefEventPara = (name, value) => {
-    return { target: { name, value } };
+    return { 
+      target: { 
+        name, value 
+      } 
+    };
   };
 
   return (
