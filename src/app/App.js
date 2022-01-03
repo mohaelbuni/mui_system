@@ -11,8 +11,6 @@ import Header from "../components/Header";
 
 import Employees from "../pages/Employees/Employees";
 
-
-
 const theme = createTheme({
   palette: {
     primary: {
@@ -53,7 +51,7 @@ function App() {
       <SideMenu />
       <div className={classes.appMain}>
         <Header />
-        <Employees/>
+        <Employees />
       </div>
       <CssBaseline />
     </ThemeProvider>
